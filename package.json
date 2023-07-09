@@ -5,6 +5,7 @@
   "description": "Comments SDK",
   "type": "module",
   "main": "src/components/index.tsx",
+  "author": "David Salazar",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -31,5 +32,9 @@
     "eslint-plugin-react-refresh": "^0.4.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.0"
-  }
+  },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:deivit24/comments-sdk.git"
+    }
 }
