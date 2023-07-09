@@ -1,4 +1,4 @@
-import {CommentProps, CommentState} from "./interfaces.tsx";
+import {CommentProps} from "./interfaces.tsx";
 import Button from '@mui/material/Button';
 import "./comments.css"
 import {useState} from "react";
