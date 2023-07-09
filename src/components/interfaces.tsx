@@ -3,5 +3,4 @@ export interface CommentProps {
 }
 export interface CommentState {
     drawer: boolean,
-    anchor?: string
 }

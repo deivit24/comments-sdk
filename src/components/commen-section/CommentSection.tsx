@@ -4,14 +4,8 @@ import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 
-const CommentSection: React.FC<CommentSectionProps> = ({
-    apiKey,
-    page,
-    width = 250,
-    anchor,
-    open,
-    onClose,
-    backgroundColor='inherit'}) => {
+const CommentSection = (props: CommentSectionProps) => {
+    const {anchor, open, onClose,width,backgroundColor, page,apiKey} = props
     return  <>
     <Drawer
         anchor={anchor}
