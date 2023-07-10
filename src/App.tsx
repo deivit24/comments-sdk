@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { Button, CommentSection } from "./components";
+import { CommentSection } from "./components";
 
 
 function App() {
