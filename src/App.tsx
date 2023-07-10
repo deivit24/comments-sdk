@@ -1,14 +1,14 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
-import { Button } from "./components/Button";
+import { Button, CommentSection } from "./components";
+
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [open, setOpen] = useState(false)
 
   return (
     <div className="App">
-      <Button />
+      <CommentSection apiKey='asdadasd' open={open} width={500} anchor='right' onClose={() => setOpen(false)} backgroundColor='blue' />
     </div>
   );
 }

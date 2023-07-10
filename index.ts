@@ -1,1 +1,1 @@
-export { Button } from "./src/components/Button";
+export {CommentSection} from "./src/components/CommentSection/CommentSection"
